@@ -54,6 +54,7 @@ class ItemsSearch extends Items
 
             $dataProvider = new ActiveDataProvider([
                 'query' => $query,
+                'sort' => false
             ]);
 
             $this->load($params);
